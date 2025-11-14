@@ -1,0 +1,239 @@
+ :root {
+     --primecolor: red;
+     --secondcolor: green;
+     --textcolor: #ffffff;
+     --textscndcolor: blue;
+ }
+
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+      /* background-color: rgb(158, 185, 0); */
+      background-color:   rgb(255 218 21);
+ }
+
+ /* CSS For nav */
+
+ nav {
+     display: flex;
+     justify-content: space-around;
+     background-color: var(--secondcolor);
+ }
+
+ nav img {
+     width: 50px;
+     height: 50px;
+     border-radius: 50px;
+     margin-top: 5px;
+ }
+
+ .navul {
+     margin-top: 25px;
+ }
+
+ .navli {
+     display: inline;
+     list-style: none;
+     padding: 12px
+ }
+
+ a {
+     text-decoration: none;
+     color: var(--textcolor);
+ }
+
+ /* CSS For Main */
+
+ main {
+     display: flex;
+     justify-content: space-between;
+     height: 75vh;
+     /* background-color: rgb(134 190 141); */
+     /* background-color:yellow; */
+         }
+
+ main .left {
+     width: 50vw;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 50px;
+ }
+
+ main h2 {
+         color: rgb(255 218 21);
+         letter-spacing: 2px;
+         font-size: 40px;
+         margin-bottom: 30px;
+ }
+
+ main h1 {
+     color: rgb(0, 0, 0);
+      font-size: 50px;
+     
+    
+ }
+
+ main h4 {
+     color: blue;
+      font-size: 25px;
+      margin-top: 20px;
+ }
+
+
+
+ button {
+      color: white;
+    background-color: black;
+    padding: 10px 30px;
+    font-size: 17px;
+    /* text-align: center; */
+    margin: 3px;
+    border: 1px solid #a7a140;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+
+
+
+
+ main .right {
+    
+     width: 50vw;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ main img {
+     padding: 50px;
+     width: 40vw;
+     height: 70vh;
+     border: 3px black;
+     border-radius: 50%;
+    
+ }
+
+ /* CSS For  Section */
+ .stylhr {
+
+    height: 1px;
+    background-color: #000000;
+
+     /* margin: 30px;
+     border-top: 2px solid rgb(232, 212, 32); */
+
+ }
+  section {
+     height: 70vh;
+ }
+
+ section .expheading {
+     margin-top: 80px;
+     margin-right: 600px;
+     text-align: center;
+ }
+
+ div.experience {
+     margin-top: 100px;
+     display: flex;
+     height: 3px;
+     width: 50vw;
+     background-color: black;
+     justify-content: space-between;
+     position: relative;
+     left: 20vw;
+ }
+
+ div.verticalbox {
+     height: 6vh;
+     background-color: rgb(0, 0, 0);
+     width: 2px;
+ }
+
+ section img {
+     width: 30px;
+     position: relative;
+     top: -32px;
+ }
+
+ div.boxtitle {
+     font-size: 18px;
+     color: blue;
+     position: relative;
+     top: 15px;
+     width: 100px;
+     font-weight: bold;
+ }
+
+ div.boxdescription {
+     position: relative;
+     top: 30px;
+     width: 150px;
+     font-size: 17px;
+     font-weight: bold;
+    
+     
+ }
+   /* --STYLE FOR SECTION-TWO -- */
+
+
+  .sectwo {
+            display: flex;
+            justify-content: start;
+            gap: 20px;
+        }
+
+        .qua {
+            width: 50vw;
+            align-content: center;
+            margin: 50px;
+            padding: 50px;
+            background-color: rgb(128, 29, 101);
+        }
+
+        .sectwoquatext {
+            margin-bottom: 30px;
+            color: rgb(1, 1, 1);
+        }
+    
+         .sectwoexptext {
+            margin-bottom: 30px;
+            color: blue;
+        }
+
+
+        .exp {
+            width: 50vw;
+            align-content: center;
+            padding: 50px;
+        }
+
+
+        .sectwoli {
+                color: rgb(0, 0, 0);
+            font-size: 18px;
+            list-style: circle;
+            line-height: 25px;
+            word-spacing: 5px;
+            font-weight: 600;
+            list-style-position: inside;
+
+        }
+
+  /* --STYLE FOR FOOTER-- */
+  footer {
+            background-color: var(--secondcolor);
+            height: 40vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 40px;
+            font-size: 18px;
+            color: white;
+            line-height: 30px;
+        }
